@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Install Music-Controller</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="color-scheme" content="dark light" />
+    <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
+  </head>
+  <body>
+    <h1>Try this first</h1>
+    <esp-web-install-button
+    manifest="./manifest.json"
+    >Install</esp-web-install-button>
+    <h1>If your display is flipped install this version instead</h1>
+    <esp-web-install-button
+    manifest="./flipped.json"
+    >Install</esp-web-install-button>
+    
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "Music Controller",
+    "version": "1.0",
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "Music-controller.bin", "offset": 0 }
+        ]
+
+      }
+    ]
+  }
