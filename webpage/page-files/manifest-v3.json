@@ -1,0 +1,15 @@
+{
+  "name": "Music Controller",
+  "version": "1.2-json-parser-fix",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "Music-controller-v3.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
